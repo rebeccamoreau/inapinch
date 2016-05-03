@@ -1,0 +1,29 @@
+h1 {
+	text-align:center;
+}
+h2 {
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:20px;
+}
+form {
+	text-align:center;
+	padding-top:50px;
+	
+}
+li {
+	display: inline;
+}
+button {
+color: #42273b;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+p {
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-style: solid;
+}
