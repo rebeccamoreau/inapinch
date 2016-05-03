@@ -1,4 +1,9 @@
 # In A Pinch
 
-Front-End: Jazzmine, Rebecca
-Back-End: Clara, Katie
+Clara: Design, wireframes, etc
+
+Rebecca: Implementation of front-end
+
+Jazzmine: Back-end
+
+Katie: Back-end
