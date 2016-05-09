@@ -12,15 +12,13 @@
 	<div class="nav">
 		<div class="container">
 			<ul class="pull-right">
-				<form action="">
-					<li><button name="np" value="new-post">New Post</button></li>
-				</form>
+					<li><button onclick="addPost()" name="np" value="new-post">New Post</button></li>
 			</ul>
 		</div>
 	</div>
 	<h1>In a Pinch</h1>
-	<h2>Requests</h2>
-	<div class="messages">
+	<h2>Requests</h2> 
+	<div id="msg1" class="message">
 		<div class="container">
 			<ul class="pull-right">
 				<li><button type="button">Reply</button></li>
@@ -28,7 +26,7 @@
 			<p>Does anyone have a spare dollar for the parking meter I could use?</p>
 		</div>
 	</div>
-	<div class="messages2">
+	<div class="message">
 		<div class="container">
 			<ul class="pull-right">
 				<li><button type="button">Reply</button></li>
@@ -36,7 +34,7 @@
 			<p>Help me carry my laundry... the burden is too much...</p>
 		</div>
 	</div>
-	<div class="messages3">
+	<div class="message">
 		<div class="container">
 			<ul class="pull-right">
 				<li><button type="button">Reply</button></li>
@@ -51,5 +49,15 @@
 			</form> -->
 		</div>
 	</div>
+
+<script language="javascript">
+	
+	function addPost(){
+		var postMsg=window.prompt("What do you need?");
+	}
+
+</script>
+
+
 </body>
 </html> 
